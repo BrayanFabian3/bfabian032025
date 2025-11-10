@@ -1,0 +1,48 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    min-width: 5rem;
+    width:max-content;
+    text-align: center;
+    margin: auto;   
+    padding: .5rem;
+    box-shadow: 5px 5px 5px 5px white;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+dl {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+dt {
+    padding: 1rem;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+dd {
+    padding: 1rem;
+}
+a
+{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 1rem ;
+}
