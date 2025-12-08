@@ -26,15 +26,27 @@ blockquote {
     margin: auto;
     padding: 1rem;
     font-weight: bold;
-    color: #0957A1;
+    color: white;
+    background-color: black;
+    width: max-content;
+    box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+    margin-bottom: 1rem;
+    
 }
 
 blockquote+span {
     width: 60%;
     margin: auto;
     display: block;
+    font-weight: bold;
     text-align: right;
-    color: #0957A1;
+    color: #ffffff;
+     background-color: black;
+    width: max-content;
+    box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+    background-color: black;
+    padding: .5rem;
+   
 }
 
 #logo {
@@ -43,24 +55,37 @@ blockquote+span {
     height: 6.25rem;
     border: 1px solid none;
     background-size: cover;
+    background-position: center;
     
 }
 
 #pageheader .container {
     min-height: auto;
+    background-color: black;
 }
 
 #pageheader nav {
     text-align: center;
+    background-color:coral ;
+    width:max-content;
+    margin: auto;
+    box-shadow: rgb(60, 59, 58) 5px 5px 5px 5px;
+}
+#pageheader nav a {
+    color: black;
+}
+#pageheader nav a:hover {
+    color: white;
 }
 
 #media {
     background-color: lightblue;
     min-height: 10rem;
     padding: 1rem;
-    background-image: url(Images/heroimage.png);
+    background-image: url();
     background-size: cover;
     aspect-ratio: 16 / 9;
+    
 }
 
 #career {
