@@ -95,15 +95,37 @@ blockquote+span {
 }
 
 #pagecontent {
-    background-color: lightgreen;
+    background-color: rgb(0, 0, 0);
     min-height: 10rem;
     padding: 1rem;
 }
 
 #semester1 {
-    background-color: aquamarine;
+    background-color: #80F9D4;
     min-height: 10rem;
     padding: 1rem;
+
+}
+#semester1 h2 {
+    
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding: .5rem;
+     width: max-content;
+    box-shadow: rgb(127, 255, 212) 5px 5px 5px 5px;
+}
+#semester1 .container {
+    background-color: black;
+    color: white;
+}
+
+#semester1  a{
+    color: rgb(255, 255, 255);
+}
+#semester1  a:hover{
+    color: rgb(128, 249, 212);
+
 }
 
 #semester2 {
@@ -139,7 +161,18 @@ blockquote+span {
     min-height: 10rem;
     padding: 1rem;
     text-align: center;
+}   
+#subfooter p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: steelblue;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+    margin-top: .5rem;
 }
+
 
 audio {
     border: 5px solid steelblue;
