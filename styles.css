@@ -80,7 +80,7 @@ blockquote+span {
 
 #media {
     background-color: lightblue;
-    min-height: 10rem;
+    min-height: 7rem;
     padding: 1rem;
     background-image: url();
     background-size: cover;
@@ -153,7 +153,17 @@ blockquote+span {
 #aifooter .container {
     min-height: auto;
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #21B2AA;
     
+}
+#aifooter  a{
+    color: #21B2AA;
+    box-shadow: #21B2AA 2px 2px 2px 2px;
+}
+
+#aifooter a:hover {
+    color: white;
 }
 
 #subfooter {
