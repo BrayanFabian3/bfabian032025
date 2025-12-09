@@ -1,6 +1,17 @@
 html{
     scroll-behavior: smooth;
 }
+h1
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+    width: max-content;
+    box-shadow: rgb(80, 80, 80) 5px 5px 5px 5px;
+    background-color: black;
+}
+
 body {
     background-color: rgb(100, 79, 79);
 }
@@ -11,6 +22,7 @@ body {
     margin: auto;
     background-color: white;
     padding: 1rem;
+    
 }
 
 
