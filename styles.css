@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    
 }
 h1
 {
@@ -13,7 +14,7 @@ h1
 }
 
 body {
-    background-color: rgb(100, 79, 79);
+    background-color: rgb(0, 0, 0);
 }
 
 .container {
@@ -201,4 +202,19 @@ audio {
     background-color: steelblue;
     display: block;
     margin: auto;
+}
+@media screen and (min-width: 650px)
+{
+    #pagecontent {
+        background-color: gray;
+    }
+    
+}
+
+@media screen and (min-width: 1000px)
+{
+    #pagecontent {
+        background-color: black;
+    }
+   
 }
