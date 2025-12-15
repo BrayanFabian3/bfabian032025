@@ -80,10 +80,34 @@ blockquote+span {
 #pageheader nav {
     text-align: center;
     background-color:coral ;
-    width:max-content;
+    
     margin: auto;
     box-shadow: rgb(60, 59, 58) 5px 5px 5px 5px;
+   
 }
+ #pageheader nav ul
+    {
+        background-color: coral;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+#pageheader nav ul li
+    {
+        border: 2px solid black;
+        padding: 1rem;
+        margin: 2px;
+        
+    }
+#pageheader nav ul li:hover
+    {
+        background-color: lightcoral;
+        color: white;   
+    }
+
+
 #pageheader nav a {
     color: black;
 }
@@ -204,7 +228,16 @@ audio {
     margin: auto;
 }
 @media screen and (min-width: 650px)
-{
+{ 
+
+
+
+
+
+    #pageheader nav ul li
+    { display: inline-block;}
+
+
     #pagecontent {
         background-color: gray;
     }
@@ -216,5 +249,7 @@ audio {
     #pagecontent {
         background-color: black;
     }
-   
+
+
+    
 }
