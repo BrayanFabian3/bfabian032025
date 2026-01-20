@@ -28,37 +28,41 @@
             background-color: lightcyan;
         }
 
-        .card{
-        border: 1px solid #ccc;
-            width: 200px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            border-radius: 5px;
+        .card
+        {
+            border: 1px solid black;
+            width: 75%;
+            padding: .5rem;
             display: flex;
             justify-content: space-around;
             background-color: lightyellow;
-            
+            margin: auto;
+            justify-content: space-evenly;
             
 
         }
         #list
         {
-            display: flex;
+        
             list-style: none;
             border: 1px solid black;
             padding: 1rem;
             width: 75%;
             margin: auto;
+            display: flex;
             justify-content: space-evenly;
+
         }
         #Link 
         {
-            display:flex;
-            justify-content: space-around;
             border: 1px solid black;
             padding: 1rem;
-            width: 75px;
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            width: 75%;
             margin: auto;
+
         }
         
     </style>
@@ -86,21 +90,23 @@
 
     <h2>Cards</h2>
     <div class="card">
-        <h3>Card Title 1</h3>
-        <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
-        <h3>Card Title 2</h3>
-        <p>This is a description for card 1.</p>
-    </div>
-    <div class="card">
-        <h3>Card Title 3</h3>
-        <p>This is a description for card 1.</p>
+        <div class="card">
+            <h3>Card Title 1</h3>
+            <p>This is a description for card 1.</p>
+        </div>
+        <div class="card">
+            <h3>Card Title 2</h3>
+            <p>This is a description for card 1.</p>
+        </div>
+        <div class="card">
+            <h3>Card Title 3</h3>
+            <p>This is a description for card 1.</p>
+        </div>
     </div>
 
     <h2>Link Lists</h2>
-    <div id="Link">
-        <ul>
+
+        <ul>   <div id="Link">
             <li><a href="https://google.com/">Google</a></li>
             <li><a href="https://google.com/">Google</a></li>
             <li><a href="https://google.com/">Google</a></li>
