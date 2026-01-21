@@ -28,18 +28,19 @@
             background-color: lightcyan;
         }
 
+        #cards {
+           background-color: lightgray;
+           display: flex;
+              justify-content: space-between;
+        }
         .card
         {
             border: 1px solid black;
-            width: 75%;
+            width: 200px;
             padding: .5rem;
-            display: flex;
-            justify-content: space-around;
             background-color: lightyellow;
-            margin: auto;
-            justify-content: space-evenly;
-            
-
+            margin: 1rem;
+        
         }
         #list
         {
@@ -89,20 +90,22 @@
     </div>
 
     <h2>Cards</h2>
-    <div class="card">
-        <div class="card">
-            <h3>Card Title 1</h3>
-            <p>This is a description for card 1.</p>
-        </div>
-        <div class="card">
-            <h3>Card Title 2</h3>
-            <p>This is a description for card 1.</p>
-        </div>
-        <div class="card">
-            <h3>Card Title 3</h3>
-            <p>This is a description for card 1.</p>
-        </div>
-    </div>
+
+<div id="cards">
+          <div class="card">
+                <h3>Card Title 1</h3>  
+                <p>This is a description for card 1.</p>
+            </div>
+           <div class="card">
+                <h3>Card Title 2</h3> 
+                <p>This is a description for card 1.</p>
+            </div>
+            <div class="card">
+                <h3>Card Title 3</h3>
+                <p>This is a description for card 1.</p>
+            </div>
+    
+</div>
 
     <h2>Link Lists</h2>
 
