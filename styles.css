@@ -1,3 +1,12 @@
+/* Mobile Styles - Default */
+
+:root
+{
+    --main-color: white;
+    --secondary-color: #21B2AA;
+    --tertiary-color: aquamarine;
+}
+
 html{
     scroll-behavior: smooth;
     
@@ -9,19 +18,28 @@ h1
     color: rgb(255, 255, 255);
     padding: .5rem;
     width: max-content;
-    box-shadow: rgb(80, 80, 80) 5px 5px 5px 5px;
+    box-shadow: rgb(255, 248, 248) 5px 5px 5px 5px;
     background-color: black;
 }
+h2
+{
+    font-size: 2rem;
+    width: max-content;
+    box-shadow: rgb(255, 248, 248) 5px 5px 5px 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
     max-width: 75rem;
     min-height: 10rem;
     margin: auto;
-    background-color: white;
+    background-color: black ;
     padding: 1rem;
     
 }
@@ -31,6 +49,7 @@ body {
     background-color: coral;
     min-height: auto;
     padding: .25rem;
+
 }
 
 blockquote {
@@ -42,8 +61,14 @@ blockquote {
     color: white;
     background-color: black;
     width: max-content;
-    box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+    box-shadow: rgb(252, 252, 252) 5px 5px 5px 5px;
     margin-bottom: 1rem;
+    
+}
+p{
+   color: white;
+    box-shadow: rgb(252, 252, 252) 5px 5px 5px 5px;
+    background-color: black;
     
 }
 
@@ -56,7 +81,7 @@ blockquote+span {
     color: #ffffff;
      background-color: black;
     width: max-content;
-    box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+    box-shadow: rgb(255, 255, 255) 5px 5px 5px 5px;
     background-color: black;
     padding: .5rem;
    
@@ -69,6 +94,8 @@ blockquote+span {
     border: 1px solid none;
     background-size: cover;
     background-position: center;
+    margin: auto;
+    transition: all 2s;
     
 }
 
@@ -126,32 +153,36 @@ blockquote+span {
 }
 
 #career {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     min-height: 10rem;
     padding: 1rem;
+    color: white;
+
+    
+    
+}
+#career  a{
+    color: rgb(255, 255, 255);
+}
+#career  a:hover{
+    color: lightseagreen;
+
 }
 
 #pagecontent {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     min-height: 10rem;
     padding: 1rem;
 }
 
 #semester1 {
-    background-color: #80F9D4;
+    background-color: rgb(255, 255, 255);
     min-height: 10rem;
     padding: 1rem;
 
 }
-#semester1 h2 {
-    
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    padding: .5rem;
-     width: max-content;
-    box-shadow: rgb(127, 255, 212) 5px 5px 5px 5px;
-}
+
+
 #semester1 .container {
     background-color: black;
     color: white;
@@ -166,15 +197,35 @@ blockquote+span {
 }
 
 #semester2 {
-    background-color: lightgreen;
+    background-color: rgb(255, 255, 255);
     min-height: 10rem;
     padding: 1rem;
 }
+#semester2  a{
+    color: rgb(255, 255, 255);
+}
+#semester2  a:hover{
+    color: rgb(128, 249, 212);
+
+}
 
 #pagefooter {
-    background-color: cornflowerblue;
+    background-color: rgb(255, 255, 255);
     min-height: auto;
     padding: 1rem;
+    
+}
+#pagefooter a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgb(255, 255, 255) 2px 2px 2px 2px;
+}
+#pagefooter a:hover {
+    color: rgb(117, 102, 102);
 }
 
 #pagefooter .container {
@@ -183,7 +234,7 @@ blockquote+span {
 }
 
 #aifooter {
-    background-color: lightseagreen;
+    background-color: rgb(255, 255, 255);
     min-height: auto;
     padding: 1rem;
 }
@@ -191,20 +242,20 @@ blockquote+span {
     min-height: auto;
     text-align: center;
     background-color: rgb(0, 0, 0);
-    color: #21B2AA;
+    color: #fbfbfb;
     
 }
 #aifooter  a{
-    color: #21B2AA;
-    box-shadow: #21B2AA 2px 2px 2px 2px;
+    color: #f9f9f9;
+    box-shadow: #ffffff 2px 2px 2px 2px;
 }
 
 #aifooter a:hover {
-    color: white;
+    color: rgb(117, 102, 102);
 }
 
 #subfooter {
-    background-color: steelblue;
+    background-color: rgb(255, 255, 255);
     min-height: 10rem;
     padding: 1rem;
     text-align: center;
@@ -212,38 +263,39 @@ blockquote+span {
 #subfooter p {
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background-color: steelblue;
+    background-color: rgb(3, 3, 3);
     width: max-content;
     text-align: center;
     margin: auto;
-    box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+    box-shadow: rgb(255, 255, 255) 5px 5px 5px 5px;
     margin-top: .5rem;
 }
 
 
 audio {
-    border: 5px solid steelblue;
-    background-color: steelblue;
+    border: 5px solid rgb(15, 15, 15);
+    background-color: rgb(0, 0, 0);
     display: block;
     margin: auto;
+      box-shadow: rgb(255, 255, 255) 5px 5px 5px 5px;
+
 }
-@media screen and (min-width: 650px)
-{ 
-
-
-
-
+/* Tablet View */
+@media screen and (min-width: 650px){ 
 
     #pageheader nav ul li
     { display: inline-block;}
 
+    #logo{
+        margin: 0;
+    }
 
     #pagecontent {
         background-color: gray;
     }
     
 }
-
+/* Desktop View */
 @media screen and (min-width: 1000px)
 {
     #pagecontent {
